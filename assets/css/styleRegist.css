@@ -1,0 +1,60 @@
+/* body,
+html {
+    height: 600px;
+} */
+
+.bg {
+    background: linear-gradient(242.48deg, rgba(242, 152, 152, 0.976471) 18.96%, rgba(242, 152, 152, 0) 89.93%);
+    height: 577px !important;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black !important;
+    opacity: 1;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 42px;
+    text-align: center;
+}
+
+form .form-control {
+    border: none;
+    border-bottom: 1px solid black;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background: transparent;
+    text-align: center;
+}
+
+form .btn-letsgo {
+    background-color: #EB5858 !important;
+    border-radius: 20px;
+    border: none;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    border-color: none;
+    width: 151px;
+    height: 40px;
+}
+
+form .wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+}
+
+form .title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+}

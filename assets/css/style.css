@@ -1,0 +1,111 @@
+body {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: url('../images/9940-removebg-preview 1.png'), linear-gradient( 242.48deg, rgba(242, 152, 152, 0.976471) 18.96%, rgba(242, 152, 152, 0) 89.93%);
+}
+
+.card-h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 94px;
+    line-height: 55px;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+button {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    position: absolute;
+    width: 151px;
+    height: 40px;
+    left: 439px;
+    top: 299px;
+    background: #EB5858;
+    border-radius: 20px;
+}
+
+form {
+    position: absolute;
+    width: 452px;
+    height: 59.22px;
+    left: 138px;
+    top: 117px;
+}
+
+form .form-group .form-control {
+    border: none;
+    border-bottom: 1px solid black;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    text-align: center;
+}
+
+.email {
+    position: absolute;
+    width: 262px;
+    height: 42px;
+    left: 160px;
+    top: 117px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.form-content-email {
+    position: absolute;
+    width: 451.99px;
+    height: 32px;
+    left: 138.01px;
+    top: 174px;
+    border: 1px solid #000000;
+}
+
+.password {
+    position: absolute;
+    width: 262px;
+    height: 42px;
+    left: 155px;
+    top: 205px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.form-content-password {
+    position: absolute;
+    width: 452px;
+    height: 32px;
+    left: 138px;
+    top: 257px;
+    border: 1px solid #000000;
+    transform: matrix(1, 0, -0.01, 1, 0, 0);
+}
+
+a {
+    position: absolute;
+    width: 170px;
+    height: 28px;
+    left: 138px;
+    top: 550px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
